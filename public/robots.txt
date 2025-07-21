@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.eki.my.id/sitemap.xml
+Sitemap: https://yashwanthes_my_id.onrender.com/sitemap.xml

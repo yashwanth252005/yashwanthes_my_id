@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import "./index.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -42,6 +43,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               </span>
             </center>
           </footer>
+          <SpeedInsights />
         </>
       )}
     </>
